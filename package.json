@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": "Arnab Tarwani <arnab.tarwani@gmail.com>",
   "scripts": {
     "serve": "cross-env NODE_ENV=development nodemon -L src/server/server.js",
     "start": "yarn run serve"
