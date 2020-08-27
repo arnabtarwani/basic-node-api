@@ -1,0 +1,27 @@
+{
+  "name": "basic-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "cross-env NODE_ENV=development nodemon -L src/server/server.js",
+    "start": "yarn run serve"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "mongoose": "^5.10.1",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
