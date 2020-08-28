@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "Arnab Tarwani <arnab.tarwani@gmail.com>",
   "scripts": {
-    "build": "netlify-lambda build src/server/",
+    "build": "netlify-lambda build src/server",
     "serve": "cross-env NODE_ENV=development nodemon -L src/server/server.js",
     "start": "yarn run serve"
   },
